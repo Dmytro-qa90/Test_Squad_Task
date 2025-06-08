@@ -1,0 +1,14 @@
+{
+  "name": "wdio-test",
+  "type": "module",
+  "scripts": {
+    "wdio": "wdio run wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^9.15.0",
+    "@wdio/local-runner": "^9.15.0",
+    "@wdio/mocha-framework": "^9.15.0",
+    "@wdio/spec-reporter": "^9.15.0",
+    "chai": "^5.2.0"
+  }
+}
